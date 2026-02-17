@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Mohamed Talaat Harb | Principal Software Engineer</title>
+  <meta name="description" content="Portfolio of Mohamed Talaat Harb, Principal Software Engineer and Technical Lead." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Mohamed Talaat Harb</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        Dark mode
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Principal Software Engineer | Technical Lead</p>
+          <h1>Building reliable systems and leading engineering teams at scale.</h1>
+          <p class="hero-text">
+            Over 15 years of software engineering experience across architecture, cloud infrastructure,
+            DevOps, and product delivery.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#experience">View Experience</a>
+            <a class="btn btn-secondary" href="mailto:eng.talat.harb@gmail.com">Email</a>
+          </div>
+        </div>
+        <aside class="quick-info" aria-label="Quick details">
+          <h2>Quick Details</h2>
+          <ul>
+            <li><strong>Location:</strong> Cairo, Egypt</li>
+            <li><strong>Phone:</strong> +20 111 447 1497</li>
+            <li><strong>Email:</strong> <a href="mailto:eng.talat.harb@gmail.com">eng.talat.harb@gmail.com</a></li>
+            <li><strong>Website:</strong> <a href="https://www.talaatharb.net" target="_blank" rel="noopener noreferrer">talaatharb.net</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="profile" class="section reveal">
+      <div class="container">
+        <h2>Profile</h2>
+        <p>
+          Principal Software Engineer and Technical Lead with extensive experience in designing,
+          developing, and delivering scalable software systems. Passionate about system architecture,
+          DevOps, cloud infrastructure, and mentoring engineers to reach their full potential.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2>Professional Experience</h2>
+
+        <article class="exp-card">
+          <button class="exp-toggle" aria-expanded="true">
+            <span>
+              <strong>Principal Software Engineer & Technical Lead</strong>
+              <small>Cegedim | 2019 – Present</small>
+            </span>
+            <span class="toggle-indicator">−</span>
+          </button>
+          <div class="exp-content open">
+            <ul>
+              <li>Designed and delivered healthcare software products across multiple teams.</li>
+              <li>Used AI for large scale refactoring of legacy code and for developing new features</li>
+              <li>Collaborated with DevOps to improve infrastructure and deployment processes.</li>
+              <li>Translated business requirements into scalable technical solutions.</li>
+              <li>Coordinated integrations with multiple enterprise systems.</li>
+              <li>Resolved critical production issues requiring urgent intervention.</li>
+              <li>Mentored developers and improved onboarding processes.</li>
+              <li>Managed technical upskilling initiatives and internship programs.</li>
+              <li>Aligned product strategy with upper management and architecture direction.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-card">
+          <button class="exp-toggle" aria-expanded="false">
+            <span>
+              <strong>Freelance Software Developer</strong>
+              <small>2018 – 2019</small>
+            </span>
+            <span class="toggle-indicator">+</span>
+          </button>
+          <div class="exp-content">
+            <ul>
+              <li>Developed multiple projects using Java, Angular, React, and C#.</li>
+              <li>Built Docker images and implemented CI/CD pipelines.</li>
+              <li>Worked with virtualization technologies and Linux web servers.</li>
+              <li>Contributed to cloud infrastructure setup and optimization.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-card">
+          <button class="exp-toggle" aria-expanded="false">
+            <span>
+              <strong>Software Developer & IT Administrator</strong>
+              <small>ASU-GARDS Research Group | 2010 – 2018</small>
+            </span>
+            <span class="toggle-indicator">+</span>
+          </button>
+          <div class="exp-content">
+            <ul>
+              <li>Developed commercial acoustic simulation software (SIDLAB) using Java.</li>
+              <li>Managed on-premise data center hosting websites and cluster computing servers.</li>
+              <li>Led penetration testing projects involving Java, Python, C, and Linux systems.</li>
+              <li>Developed virtual reality applications using C#.</li>
+              <li>Worked with laser scanning and photogrammetry for 3D asset acquisition.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="container grid-2">
+        <div>
+          <h2>Technical Skills</h2>
+          <h3>Programming & Frameworks</h3>
+          <ul class="tag-list">
+            <li>Java</li><li>Spring Framework</li><li>Angular</li><li>React</li><li>C#</li><li>Python</li>
+          </ul>
+
+          <h3>Databases & Messaging</h3>
+          <ul class="tag-list">
+            <li>Oracle DB</li><li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li><li>Couchbase</li><li>Kafka</li>
+          </ul>
+
+          <h3>DevOps & Cloud</h3>
+          <ul class="tag-list">
+            <li>Jenkins</li><li>AWS</li><li>Docker</li><li>Kubernetes</li>
+          </ul>
+
+          <h3>Other</h3>
+          <ul class="tag-list">
+            <li>Linux Administration</li><li>Virtualization</li><li>CI/CD Pipelines</li><li>Microservices Architecture</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Special Skills</h2>
+          <ul class="clean-list">
+            <li>Strong mentorship and leadership capabilities.</li>
+            <li>High adaptability to different work environments.</li>
+            <li>Ability to reason about complex software systems.</li>
+            <li>Continuous learner, up to date with modern technologies.</li>
+            <li>Strong analytical and problem-solving skills.</li>
+          </ul>
+
+          <h2>Education</h2>
+          <p>
+            <strong>BSc. in Mechatronics Engineering</strong><br />
+            Faculty of Engineering – Ain Shams University<br />
+            2005 – 2010
+          </p>
+
+          <h2>Languages</h2>
+          <ul class="clean-list">
+            <li>Arabic (Native)</li>
+            <li>English (Professional)</li>
+            <li>German (Beginner)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section reveal">
+      <div class="container">
+        <h2>Courses & Certifications</h2>
+        <p>
+          Certificates are loaded from the local assets folder. Titles below are inferred from filenames
+          and can be adjusted later.
+        </p>
+
+        <details class="expandable cert-panel" open>
+          <summary>
+            <span>Certificates</span>
+            <span id="cert-count" class="count-pill">0</span>
+          </summary>
+          <ul id="cert-list" class="cert-list" aria-label="Certificates list"></ul>
+          <div class="cert-actions">
+            <button id="cert-load-more" class="btn btn-secondary" type="button">Load more</button>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container grid-2">
+        <div>
+          <h2>Contact</h2>
+          <ul class="clean-list">
+            <li><strong>Email:</strong> <a href="mailto:eng.talat.harb@gmail.com">eng.talat.harb@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+201114471497">+20 111 447 1497</a></li>
+            <li><strong>Website:</strong> <a href="https://www.talaatharb.net" target="_blank" rel="noopener noreferrer">www.talaatharb.net</a></li>
+          </ul>
+        </div>
+        <div>
+          <details class="expandable references-box">
+            <summary>References</summary>
+            <ul class="clean-list">
+              <li><strong>Eng. Hitham Ahmed</strong> — <a href="mailto:Hitham.AHMED@cegedim.com">Hitham.AHMED@cegedim.com</a></li>
+              <li><strong>Dr. Tamer Elnady</strong> — <a href="mailto:tamer.elnady@eng.asu.edu.eg">tamer.elnady@eng.asu.edu.eg</a></li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mohamed Talaat Harb. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
