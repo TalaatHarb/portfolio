@@ -406,3 +406,11 @@ a {
     transition: none;
   }
 }
+
+/* Allow experience panels to fully expand on narrow screens */
+@media (max-width: 640px) {
+  .exp-content.open {
+    max-height: none;
+    overflow: visible;
+  }
+}
