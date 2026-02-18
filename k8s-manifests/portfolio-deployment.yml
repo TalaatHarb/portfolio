@@ -20,7 +20,7 @@ spec:
       containers:
         - name: portfolio-website
           image: talaatharb/portfolio-website:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
               name: http
